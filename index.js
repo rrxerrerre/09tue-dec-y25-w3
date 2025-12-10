@@ -77,3 +77,8 @@ const findAndDelete = function (array, year) {
   return array.findIndex((movie) => movie.Year === year);
 };
 console.log(findAndDelete(movies, "2000"));
+
+//REDUCE
+//Reduce serve per ciclare un array e ridurre i valori in un SINGOLO VALORE DI RITORNO
+
+
